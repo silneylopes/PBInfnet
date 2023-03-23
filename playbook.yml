@@ -1,7 +1,7 @@
 ---
 - hosts: wordpress
   become: yes
-  remote_user: eiras
+  remote_user: silney
 
   roles:
     - server
