@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-- hosts: wordpress
-=======
-- hosts: localhost
->>>>>>> f347fed0cb826ac4ff64e13226dff8621cb77ae7
+- hosts: 192.168.31.35
   remote_user: silney
   roles:
     - mysql
